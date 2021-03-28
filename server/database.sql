@@ -1,0 +1,6 @@
+CREATE DATABASE todo;
+
+CREATE TABLE todolist(
+    todo_id BIGSERIAL NOT NULL PRIMARY KEY,
+    description VARCHAR(255)
+);
